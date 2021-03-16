@@ -12,6 +12,9 @@ package com.originforest.faas.srtresource;
 import java.util.Map;
 import java.util.List;
 
+/**
+ * function context
+ */
 public interface Context {
   /**
    * user's tenant ID

@@ -12,6 +12,9 @@ package com.originforest.faas.srtresource;
 import java.io.OutputStream;
 import java.util.List;
 
+/**
+ * function result object
+ */
 public interface EventResult {
   /**
    * status code

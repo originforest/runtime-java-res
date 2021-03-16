@@ -11,6 +11,9 @@ package com.originforest.faas.srtresource;
 
 import java.io.InputStream;
 
+/**
+ * function event object
+ */
 public interface Event {
   /**
    * content mime-type
