@@ -59,15 +59,28 @@ public interface Context {
   public String getMethod();
 
   /**
-   * value form request header
+   * values from request header
    * @param key specify header name
    * @return values list
    */
   public List<String> getHeader(String key);
 
   /**
+   * list all header names
+   * @return list of keys
+   */
+  public List<String> getHeaderNames();
+
+  /**
    * parsed query parameters
+   * @param key name of query argument
    * @return parameters with key-value style map
    */
-  public Map<String,List<String>> getQuery();
+  public List<String> getQuery(String key);
+
+  /**
+   * list all query keys in query string
+   * @return list of keys
+   */
+  public List<String> getQueryNames();
 }
