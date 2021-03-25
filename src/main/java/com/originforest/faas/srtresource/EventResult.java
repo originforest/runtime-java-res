@@ -54,5 +54,5 @@ public interface EventResult {
    * content IO
    * @return content IO streamer
    */
-  public OutputStream getBody();
+  public OutputStream getResponseBody();
 }

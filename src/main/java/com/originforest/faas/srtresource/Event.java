@@ -25,7 +25,7 @@ public interface Event {
    * length of content data in bytes
    * @return content length
    */
-  public int getContentLength();
+  public long getContentLength();
 
   /**
    * content reader
