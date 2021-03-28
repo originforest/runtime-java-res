@@ -79,6 +79,12 @@ public interface Context {
   public List<String> getQuery(String key);
 
   /**
+   * raw query string
+   * @return parameters with key-value style map
+   */
+  public String getRawQuery();
+
+  /**
    * list all query keys in query string
    * @return list of keys
    */
